@@ -11,7 +11,7 @@ https://github.com/user-attachments/assets/b284a521-603f-4b62-a782-b2752d1a7c95
     2. 用 NuGetForUnity 安裝 LLamaSharp 與對應的 backend。
 2. 預設 backend 是 CUDA12，你需要安裝對應的 [CUDA Toolkit](https://developer.nvidia.com/cuda-toolkit-archive)  才能正常工作。
 
-   > 如果想用其他版本的 backend 可以在 NuGetForUnity 面板搜尋 LLamaSharp 安裝對應的 backend，按照官方說法當前版本是可以同時存在兩個 backend 讓 LLamaSharp 自己選擇，但實際情況會有些問題所以建議裝一個就好。
+   > 如果想用其他版本的 backend 可以在 NuGetForUnity 面板搜尋 LLamaSharp 安裝對應的 backend，按照官方說法當前版本是可以同時存在多個 backend 讓 LLamaSharp 自己選擇，但實際情況會有些問題所以建議裝一個就好。
 3. 準備一個 llama 模型（gguf 格式），沒有的話可以選擇以下任一模型使用：
 
    - [羊駝大模型](https://github.com/ymcui/Chinese-LLaMA-Alpaca-3) （比較聰明，但過激的對話內容會受限​）
